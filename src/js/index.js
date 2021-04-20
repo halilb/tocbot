@@ -18,7 +18,7 @@
   } else {
     root.tocbot = factory(root)
   }
-})(typeof global !== 'undefined' ? global : this.window || this.global, function (root) {
+})(window, function (root) {
   'use strict'
 
   // Default options.
